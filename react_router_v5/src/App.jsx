@@ -1,3 +1,4 @@
+import MainHeader from "./components/Header/MainHeader";
 import ProductPage from "./pages/ProductPage";
 import WelcomePage from "./pages/WelcomePage";
 import { Route } from "react-router-dom";
@@ -8,17 +9,19 @@ function App() {
   return (
     <>
       <header>
-        {/* Starting of URL by writing http://localhost:5173/welcome */}
-        <Route path="/welcome">
+       <MainHeader></MainHeader>
+        <AppName></AppName>
+      </header>
+      <main>
+         {/* Starting of URL by writing http://localhost:5173/welcome */}
+         <Route path="/welcome">
           <WelcomePage></WelcomePage>
         </Route>
         <Route path="/products">
           <ProductPage></ProductPage>
         </Route>
         {/* Ending of URL */}
-        <AppName></AppName>
-      </header>
-      <main></main>
+      </main>
       <footer></footer>
     </>
   );
