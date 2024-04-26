@@ -16,7 +16,7 @@ function App() {
       <main>
         {/* Starting of URL by writing http://localhost:5173/welcome */}
         <Switch>
-          <Route exact path="/welcome">
+          <Route path="/welcome">
             <WelcomePage></WelcomePage>
           </Route>
           <Route exact path="/products">
