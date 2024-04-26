@@ -2,7 +2,14 @@
 
 const ProductPage = () => {
   return (
-    <h2> This is a Product Page. </h2>
+    <section>
+      <h2> This is a Product Page. </h2>
+      <ul>
+        <li> A Book </li>
+        <li> Shirt </li>
+        <li> Laptop </li>
+      </ul>
+    </section>
   )
 }
 
