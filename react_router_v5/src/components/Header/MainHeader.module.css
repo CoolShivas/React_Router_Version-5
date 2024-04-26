@@ -1,0 +1,32 @@
+.mainheader_nav{
+    /* background-color: orange; */
+    background-color: #10439F;
+
+    & .mainheader_ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        padding: 10px;
+
+        & li{
+            font-size: 20px;
+            font-weight: 500;
+
+            & a{
+                color: snow;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.mainheader_nav a:hover,
+.mainheader_nav a:active{
+    color: #95bcf0;    
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #95bcf0;
+
+}
+

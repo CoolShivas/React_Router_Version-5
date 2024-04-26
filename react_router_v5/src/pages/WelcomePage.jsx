@@ -2,7 +2,7 @@
 
 const WelcomePage = () => {
   return (
-    <div> This is a Welcome Page. </div>
+    <h2> This is a Welcome Page. </h2>
   )
 }
 

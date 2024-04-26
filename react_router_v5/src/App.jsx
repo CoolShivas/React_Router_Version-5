@@ -3,14 +3,14 @@ import ProductPage from "./pages/ProductPage";
 import WelcomePage from "./pages/WelcomePage";
 import { Route } from "react-router-dom";
 // import Navbar from "./components/Header/Navbar";
-import AppName from "./components/AppName";
+// import AppName from "./components/AppName";
 
 function App() {
   return (
     <>
       <header>
        <MainHeader></MainHeader>
-        <AppName></AppName>
+        {/* <AppName></AppName> */}
       </header>
       <main>
          {/* Starting of URL by writing http://localhost:5173/welcome */}

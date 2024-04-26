@@ -2,7 +2,7 @@
 
 const ProductPage = () => {
   return (
-    <div> This is a Product Page. </div>
+    <h2> This is a Product Page. </h2>
   )
 }
 
