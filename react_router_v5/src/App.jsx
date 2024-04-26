@@ -1,3 +1,4 @@
+import ProductDetails from "./pages/ProductDetails";
 import MainHeader from "./components/Header/MainHeader";
 import ProductPage from "./pages/ProductPage";
 import WelcomePage from "./pages/WelcomePage";
@@ -20,6 +21,10 @@ function App() {
         <Route path="/products">
           <ProductPage></ProductPage>
         </Route>
+        <Route path="/product-details/:productId">
+          <ProductDetails></ProductDetails>
+        </Route>
+
         {/* Ending of URL */}
       </main>
       <footer></footer>
@@ -28,3 +33,8 @@ function App() {
 }
 
 export default App;
+
+
+// // our-domain.com/welcome -> Welcome Component
+// // our-domain.com/product -> Product Component
+// // our-domain.com/product-details/:productId -> anything 
